@@ -20,3 +20,4 @@ D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\Chines
 D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
 D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.exe
 D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.pdb
+D:\Synchronization and Download\ChineseMedicine\ChineseMedicine\obj\Debug\ChineseMedicine.selectMassage.resources

@@ -16,5 +16,24 @@ namespace ChineseMedicine
         {
             InitializeComponent();
         }
+
+        private void 确认信息_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form MainFunction = new MainFunction();
+            MainFunction.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form Massageform = new Massageform();
+            Massageform.Show();
+        }
     }
 }

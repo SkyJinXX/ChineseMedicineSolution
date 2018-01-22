@@ -68,6 +68,7 @@
             this.area = new System.Windows.Forms.Label();
             this.Street = new System.Windows.Forms.Label();
             this.detail = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label23
@@ -454,11 +455,21 @@
             this.detail.TabIndex = 192;
             this.detail.Text = "detail";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(435, 449);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 35);
+            this.button1.TabIndex = 193;
+            this.button1.Text = "打印";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Massageform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 591);
+            this.ClientSize = new System.Drawing.Size(1002, 508);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.detail);
             this.Controls.Add(this.Street);
             this.Controls.Add(this.area);
@@ -550,5 +561,6 @@
         private System.Windows.Forms.Label area;
         private System.Windows.Forms.Label Street;
         private System.Windows.Forms.Label detail;
+        private System.Windows.Forms.Button button1;
     }
 }

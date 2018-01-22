@@ -16,5 +16,12 @@ namespace ChineseMedicine
         {
             InitializeComponent();
         }
+
+        private void 确认信息_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form MainFunction = new MainFunction();
+            MainFunction.Show();
+        }
     }
 }

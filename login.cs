@@ -23,9 +23,9 @@ namespace ChineseMedicine
             string password = textBox2.Text.ToString();
             if (username == "admin" && password == "admin")
             {
-                Form MassageInquire = new MassageInquire();
-                MassageInquire.Show();
-                this.Close();
+                this.Visible = false;
+                Form MainFunction = new MainFunction();
+                MainFunction.Show();
             }
             else
             {
