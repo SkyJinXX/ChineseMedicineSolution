@@ -223,6 +223,7 @@
             this.button2.TabIndex = 134;
             this.button2.Text = "保存信息";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // 确认信息
             // 
