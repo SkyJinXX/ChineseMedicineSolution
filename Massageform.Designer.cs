@@ -406,9 +406,9 @@
             this.number.AutoSize = true;
             this.number.Location = new System.Drawing.Point(751, 85);
             this.number.Name = "number";
-            this.number.Size = new System.Drawing.Size(69, 20);
+            this.number.Size = new System.Drawing.Size(19, 20);
             this.number.TabIndex = 187;
-            this.number.Text = "number";
+            this.number.Text = " ";
             // 
             // name
             // 

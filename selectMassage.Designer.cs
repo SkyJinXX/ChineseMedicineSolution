@@ -34,18 +34,18 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -55,8 +55,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -127,38 +127,38 @@
             this.label20.TabIndex = 171;
             this.label20.Text = "备注:";
             // 
-            // textBox15
+            // textBox11
             // 
-            this.textBox15.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox15.Location = new System.Drawing.Point(110, 323);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(845, 72);
-            this.textBox15.TabIndex = 170;
+            this.textBox11.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox11.Location = new System.Drawing.Point(110, 323);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(845, 72);
+            this.textBox11.TabIndex = 170;
             // 
-            // textBox14
+            // textBox10
             // 
-            this.textBox14.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox14.Location = new System.Drawing.Point(831, 274);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(49, 30);
-            this.textBox14.TabIndex = 169;
+            this.textBox10.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox10.Location = new System.Drawing.Point(831, 274);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(49, 30);
+            this.textBox10.TabIndex = 169;
             // 
-            // textBox13
+            // textBox9
             // 
-            this.textBox13.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox13.Location = new System.Drawing.Point(747, 274);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(49, 30);
-            this.textBox13.TabIndex = 168;
+            this.textBox9.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox9.Location = new System.Drawing.Point(747, 274);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(49, 30);
+            this.textBox9.TabIndex = 168;
             // 
-            // textBox12
+            // textBox8
             // 
-            this.textBox12.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox12.Location = new System.Drawing.Point(615, 274);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(67, 30);
-            this.textBox12.TabIndex = 167;
+            this.textBox8.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox8.Location = new System.Drawing.Point(615, 274);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(67, 30);
+            this.textBox8.TabIndex = 167;
             // 
             // label19
             // 
@@ -228,21 +228,21 @@
             this.checkedListBox2.Size = new System.Drawing.Size(305, 25);
             this.checkedListBox2.TabIndex = 161;
             // 
-            // textBox10
+            // textBox7
             // 
-            this.textBox10.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox10.Location = new System.Drawing.Point(616, 227);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(219, 30);
-            this.textBox10.TabIndex = 160;
+            this.textBox7.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox7.Location = new System.Drawing.Point(616, 227);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(219, 30);
+            this.textBox7.TabIndex = 160;
             // 
-            // textBox11
+            // textBox6
             // 
-            this.textBox11.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox11.Location = new System.Drawing.Point(173, 227);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(219, 30);
-            this.textBox11.TabIndex = 159;
+            this.textBox6.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox6.Location = new System.Drawing.Point(173, 227);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(219, 30);
+            this.textBox6.TabIndex = 159;
             // 
             // label14
             // 
@@ -337,21 +337,21 @@
             this.label6.TabIndex = 143;
             this.label6.Text = "编号:";
             // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox3.Location = new System.Drawing.Point(485, 71);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 30);
-            this.textBox3.TabIndex = 142;
-            // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox2.Location = new System.Drawing.Point(592, 70);
+            this.textBox2.Location = new System.Drawing.Point(485, 71);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(65, 30);
-            this.textBox2.TabIndex = 141;
+            this.textBox2.Size = new System.Drawing.Size(66, 30);
+            this.textBox2.TabIndex = 142;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox3.Location = new System.Drawing.Point(592, 70);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(65, 30);
+            this.textBox3.TabIndex = 141;
             // 
             // textBox1
             // 
@@ -442,18 +442,18 @@
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.checkedListBox2);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -463,8 +463,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -488,18 +488,18 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
@@ -509,8 +509,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
