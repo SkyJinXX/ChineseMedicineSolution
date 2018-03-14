@@ -21,7 +21,6 @@ namespace ChineseMedicine
         {
             InitializeComponent();
             Massageform_Load();
-           
         }
 
         //页面加载
@@ -89,41 +88,29 @@ namespace ChineseMedicine
             note.Text = All.Bei;
         }
         
-        private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
-        {
-            
-            throw new NotImplementedException();
-        }
-
         //打印设置
-        /*
-        protected void FileMenuItem_PrintSet_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            PrintDialog printDialog = new PrintDialog();
-            printDialog.Document = printDocument1;
-            printDialog.ShowDialog();
+            printDialog1.Document = printDocument1;
+            printDialog1.ShowDialog();
         }
-        */
 
         //页面设置
-        /*
-        protected void FileMenuItem_PageSet_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            PageSetupDialog pageSetupDialog = new PageSetupDialog();
-            pageSetupDialog.Document = printDocument1;
-            pageSetupDialog.ShowDialog();
+            pageSetupDialog1.Document = printDocument1;
+            pageSetupDialog1.ShowDialog();
         }
-        */
+
 
         //打印预览
         protected void FileMenuItem_PrintView_Click(object sender, EventArgs e)
         {
-            PrintPreviewDialog printPreviewDialog1 = new PrintPreviewDialog();
             printPreviewDialog1.Document = printDocument1;
             //lineReader = new StringReader(textBox.Text);
             try
             {
-                printPreviewDialog1.ShowDialog();
+                this.printPreviewDialog1.ShowDialog();
             }
             catch (Exception excep)
             {
@@ -132,43 +119,47 @@ namespace ChineseMedicine
         }
 
         //打印
-        protected void FileMenuItem_Print_Click(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        protected void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            PrintDialog printDialog = new PrintDialog();
-            printDialog.Document = printDocument1;
-            //lineReader = new StringReader(textBox.Text);
-            if (printDialog.ShowDialog() == DialogResult.OK)
+            printDialog1.Document = printDocument1;
+            printDocument1.DefaultPageSettings.Landscape = true;
+            if (printDialog1.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
                     Graphics g = e.Graphics;   //先建立画布   
                     int x = 80;
-                    int y = 60;
-                    g.DrawImage(this.BackgroundImage, 50, 50);
+                    int y = 0;
+                    TextBox tb = new TextBox();
+                    //g.DrawImage(this.BackgroundImage, 1018, 555);
                     foreach (Control item in this.Controls)
                     {
                         if (item is Label)
                         {
                             Control tx = (item as Control);
                             g.DrawString(tx.Text, tx.Font, Brushes.Black, tx.Left + x, tx.Top + y);
+                            tb.Text += tx.Text;
                         }
                     }
+                    MessageBox.Show(tb.Text);
                 }
                 catch(Exception excep)
                 {
                     MessageBox.Show(excep.Message, "打印出错", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     printDocument1.PrintController.OnEndPrint(printDocument1,new PrintEventArgs());
                 }
+                throw new NotImplementedException();
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            printDocument1 = new PrintDocument();
+            if (this.printDialog1.ShowDialog() == DialogResult.OK)
+            {
+                this.printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
+                this.printDocument1.Print(); 
+            }
 
-            printDocument1.PrintPage += new PrintPageEventHandler(this.printDocument_PrintPage);
-            
         }
-        
     }
 }

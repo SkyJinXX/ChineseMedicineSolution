@@ -70,6 +70,22 @@ namespace ChineseMedicine
             SqlCommand cq = new SqlCommand(sq, conn);
             cq.CommandText = "select Count(*) from Information";
             String num = Convert.ToString(Convert.ToInt32(cq.ExecuteScalar()) + 1);
+
+            Boolean flag = true;
+            while(flag)
+            {
+                cq.CommandText = "select IDnum from Information where IDnum = '" + num + "'";
+                if(cq.ExecuteScalar() != null)
+                {
+                    num = Convert.ToString(Convert.ToInt32(num) + 1);
+                }
+                else
+                {
+                    flag = false;
+                }
+            }
+
+            //MessageBox.Show(num);
             String s = Get_Data();
             cq.CommandText = "insert into Information values('" + num + "','" + textBox4.Text + "','" 
                 + this.comboBox1.Text + "','" + s + "')";
@@ -101,7 +117,7 @@ namespace ChineseMedicine
                 s += "0";
             s += textBox3.Text + " 00:00:00";
 
-            //MessageBox.Show(s);
+            MessageBox.Show(s);
             return s;
         }
     }

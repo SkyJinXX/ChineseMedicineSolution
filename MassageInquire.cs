@@ -96,3 +96,40 @@ namespace ChineseMedicine
         }
     }
 }
+/*
+ * String connstr = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
+            SqlConnection conn = new SqlConnection(connstr);
+            conn.Open();
+
+            String sq = "select IDp from Patient where IDp = '" + textBox4.Text + "'";
+            SqlCommand cq = new SqlCommand(sq, conn);
+            if (cq.ExecuteScalar() != null)
+            {
+                MessageBox.Show("患者已存在，无需录入！");
+            }
+            else
+            {
+                String str = "insert into Patient values('" + textBox4.Text + "', '" + textBox5.Text
+                    + "', '" + textBox11.Text + "', '" + textBox10.Text + "')";
+                SqlCommand cmd = new SqlCommand(str, conn);
+                cmd.ExecuteScalar();
+                MessageBox.Show("患者信息已录入！");
+
+                String s = Address_Deal();
+                cq.CommandText = "select IDp from Address where Addres = '" + s + "'";
+                if (cq.ExecuteScalar() != null)
+                {
+                    MessageBox.Show("该地址已存在，无需录入！");
+                }
+                else
+                {
+                    cq.CommandText = "select Count(*) from Address";
+                    int num = Convert.ToInt32(cq.ExecuteScalar()) + 1;
+                    cmd.CommandText = "insert into Address values('" + num.ToString() + "','" + textBox4.Text
+                        + "','" + s + "')";
+                    cmd.ExecuteScalar();
+                    MessageBox.Show("患者地址已录入！");
+                }
+            }
+            conn.Close();
+*/

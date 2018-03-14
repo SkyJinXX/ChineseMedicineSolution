@@ -75,6 +75,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label23
@@ -309,6 +311,9 @@
             // 
             // type
             // 
+            this.type.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.type.AutoSize = true;
             this.type.Location = new System.Drawing.Point(112, 277);
             this.type.Name = "type";
@@ -318,6 +323,9 @@
             // 
             // count1
             // 
+            this.count1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.count1.AutoSize = true;
             this.count1.Location = new System.Drawing.Point(612, 277);
             this.count1.Name = "count1";
@@ -327,6 +335,9 @@
             // 
             // count2
             // 
+            this.count2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.count2.AutoSize = true;
             this.count2.Location = new System.Drawing.Point(721, 277);
             this.count2.Name = "count2";
@@ -336,6 +347,9 @@
             // 
             // count3
             // 
+            this.count3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.count3.AutoSize = true;
             this.count3.Location = new System.Drawing.Point(821, 277);
             this.count3.Name = "count3";
@@ -345,6 +359,9 @@
             // 
             // note
             // 
+            this.note.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.note.AutoSize = true;
             this.note.Location = new System.Drawing.Point(112, 323);
             this.note.Name = "note";
@@ -354,6 +371,9 @@
             // 
             // phone
             // 
+            this.phone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.phone.AutoSize = true;
             this.phone.Location = new System.Drawing.Point(177, 227);
             this.phone.Name = "phone";
@@ -364,6 +384,9 @@
             // label25
             // 
             this.label25.AccessibleName = "homePhone";
+            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(619, 227);
             this.label25.Name = "label25";
@@ -373,6 +396,9 @@
             // 
             // way
             // 
+            this.way.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.way.AutoSize = true;
             this.way.Location = new System.Drawing.Point(57, 85);
             this.way.Name = "way";
@@ -382,6 +408,9 @@
             // 
             // year
             // 
+            this.year.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.year.AutoSize = true;
             this.year.Location = new System.Drawing.Point(368, 85);
             this.year.Name = "year";
@@ -391,6 +420,9 @@
             // 
             // month
             // 
+            this.month.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.month.AutoSize = true;
             this.month.Location = new System.Drawing.Point(491, 85);
             this.month.Name = "month";
@@ -400,6 +432,9 @@
             // 
             // day
             // 
+            this.day.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.day.AutoSize = true;
             this.day.Location = new System.Drawing.Point(591, 85);
             this.day.Name = "day";
@@ -409,6 +444,9 @@
             // 
             // number
             // 
+            this.number.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.number.AutoSize = true;
             this.number.Location = new System.Drawing.Point(751, 85);
             this.number.Name = "number";
@@ -418,6 +456,9 @@
             // 
             // name
             // 
+            this.name.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.name.AutoSize = true;
             this.name.Location = new System.Drawing.Point(122, 132);
             this.name.Name = "name";
@@ -427,6 +468,9 @@
             // 
             // city
             // 
+            this.city.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.city.AutoSize = true;
             this.city.Location = new System.Drawing.Point(368, 132);
             this.city.Name = "city";
@@ -436,6 +480,9 @@
             // 
             // area
             // 
+            this.area.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.area.AutoSize = true;
             this.area.Location = new System.Drawing.Point(534, 132);
             this.area.Name = "area";
@@ -445,6 +492,9 @@
             // 
             // Street
             // 
+            this.Street.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Street.AutoSize = true;
             this.Street.Location = new System.Drawing.Point(736, 132);
             this.Street.Name = "Street";
@@ -454,6 +504,9 @@
             // 
             // detail
             // 
+            this.detail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.detail.AutoSize = true;
             this.detail.Location = new System.Drawing.Point(50, 180);
             this.detail.Name = "detail";
@@ -463,7 +516,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(435, 449);
+            this.button1.Location = new System.Drawing.Point(570, 449);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 35);
             this.button1.TabIndex = 193;
@@ -483,7 +536,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(247, 449);
+            this.button2.Location = new System.Drawing.Point(402, 449);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 35);
             this.button2.TabIndex = 194;
@@ -495,11 +548,35 @@
             // 
             this.printDialog1.UseEXDialog = true;
             // 
+            // button4
+            // 
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button4.Location = new System.Drawing.Point(73, 449);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(148, 35);
+            this.button4.TabIndex = 196;
+            this.button4.Text = "打印设置";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button3.Location = new System.Drawing.Point(233, 449);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(148, 35);
+            this.button3.TabIndex = 197;
+            this.button3.Text = "页面设置";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Massageform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 508);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.detail);
@@ -599,5 +676,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }
