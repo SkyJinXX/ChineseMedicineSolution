@@ -35,3 +35,16 @@ C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\Chines
 C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe
 C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.config
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csprojResolveAssemblyReference.cache
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.login.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MainFunction.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Massageform.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageInquire.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.Properties.Resources.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.selectMassage.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.pdb

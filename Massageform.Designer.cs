@@ -623,6 +623,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Massageform";
             this.Text = "Massageform";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Massageform_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

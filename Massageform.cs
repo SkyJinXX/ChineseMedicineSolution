@@ -26,6 +26,10 @@ namespace ChineseMedicine
         //页面加载
         public void Massageform_Load()
         {
+            printDocument1 = new PrintDocument();
+            printDialog1.Document = printDocument1;
+            printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
+            printDocument1.DefaultPageSettings.Landscape = true;
             String connstr = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
             SqlConnection conn = new SqlConnection(connstr);
             conn.Open();
@@ -91,7 +95,7 @@ namespace ChineseMedicine
         //打印设置
         private void button4_Click(object sender, EventArgs e)
         {
-            printDialog1.Document = printDocument1;
+            //printDialog1.Document = printDocument1;
             printDialog1.ShowDialog();
         }
 
@@ -121,9 +125,9 @@ namespace ChineseMedicine
         //打印
         protected void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            printDialog1.Document = printDocument1;
-            printDocument1.DefaultPageSettings.Landscape = true;
-            if (printDialog1.ShowDialog() == DialogResult.OK)
+            //printDialog1.Document = printDocument1;
+            
+            if (true)
             {
                 try
                 {
@@ -141,25 +145,31 @@ namespace ChineseMedicine
                             tb.Text += tx.Text;
                         }
                     }
-                    MessageBox.Show(tb.Text);
+                    //MessageBox.Show("kaikai");
                 }
                 catch(Exception excep)
                 {
                     MessageBox.Show(excep.Message, "打印出错", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     printDocument1.PrintController.OnEndPrint(printDocument1,new PrintEventArgs());
                 }
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.printDialog1.ShowDialog() == DialogResult.OK)
-            {
-                this.printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
-                this.printDocument1.Print(); 
-            }
+            //int i = 1;
+            //MessageBox.Show(i.ToString());
+            //i++;
+            
+            //printDialog1.ShowDialog();
+            this.printDocument1.Print(); 
 
+        }
+
+        private void Massageform_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
         }
     }
 }
