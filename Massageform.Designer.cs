@@ -82,6 +82,8 @@
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label23.Font = new System.Drawing.Font("宋体", 15F);
             this.label23.Location = new System.Drawing.Point(50, 404);
             this.label23.Name = "label23";
@@ -92,6 +94,8 @@
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label22.Font = new System.Drawing.Font("宋体", 15F);
             this.label22.Location = new System.Drawing.Point(557, 365);
             this.label22.Name = "label22";
@@ -102,6 +106,8 @@
             // label21
             // 
             this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label21.Font = new System.Drawing.Font("宋体", 15F);
             this.label21.Location = new System.Drawing.Point(50, 365);
             this.label21.Name = "label21";
@@ -112,6 +118,8 @@
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label20.Font = new System.Drawing.Font("宋体", 15F);
             this.label20.Location = new System.Drawing.Point(47, 323);
             this.label20.Name = "label20";
@@ -122,6 +130,8 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label19.Font = new System.Drawing.Font("宋体", 15F);
             this.label19.Location = new System.Drawing.Point(796, 277);
             this.label19.Name = "label19";
@@ -132,6 +142,8 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label18.Font = new System.Drawing.Font("宋体", 15F);
             this.label18.Location = new System.Drawing.Point(896, 277);
             this.label18.Name = "label18";
@@ -142,6 +154,8 @@
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label17.Font = new System.Drawing.Font("宋体", 15F);
             this.label17.Location = new System.Drawing.Point(686, 277);
             this.label17.Name = "label17";
@@ -152,6 +166,8 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label16.Font = new System.Drawing.Font("宋体", 15F);
             this.label16.Location = new System.Drawing.Point(554, 277);
             this.label16.Name = "label16";
@@ -162,6 +178,8 @@
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label15.Font = new System.Drawing.Font("宋体", 15F);
             this.label15.Location = new System.Drawing.Point(47, 277);
             this.label15.Name = "label15";
@@ -172,6 +190,8 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label14.Font = new System.Drawing.Font("宋体", 15F);
             this.label14.Location = new System.Drawing.Point(112, 227);
             this.label14.Name = "label14";
@@ -182,6 +202,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label13.Font = new System.Drawing.Font("宋体", 15F);
             this.label13.Location = new System.Drawing.Point(554, 227);
             this.label13.Name = "label13";
@@ -192,6 +214,8 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label12.Font = new System.Drawing.Font("宋体", 15F);
             this.label12.Location = new System.Drawing.Point(47, 227);
             this.label12.Name = "label12";
@@ -202,6 +226,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label8.Font = new System.Drawing.Font("宋体", 15F);
             this.label8.Location = new System.Drawing.Point(865, 132);
             this.label8.Name = "label8";
@@ -212,6 +238,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label9.Font = new System.Drawing.Font("宋体", 15F);
             this.label9.Location = new System.Drawing.Point(649, 132);
             this.label9.Name = "label9";
@@ -222,6 +250,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label10.Font = new System.Drawing.Font("宋体", 15F);
             this.label10.Location = new System.Drawing.Point(474, 132);
             this.label10.Name = "label10";
@@ -232,6 +262,8 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label11.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.Location = new System.Drawing.Point(282, 132);
             this.label11.Name = "label11";
@@ -242,6 +274,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.Font = new System.Drawing.Font("宋体", 15F);
             this.label7.Location = new System.Drawing.Point(50, 132);
             this.label7.Name = "label7";
@@ -252,6 +286,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("宋体", 15F);
             this.label6.Location = new System.Drawing.Point(686, 85);
             this.label6.Name = "label6";
@@ -262,6 +298,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("宋体", 15F);
             this.label5.Location = new System.Drawing.Point(636, 85);
             this.label5.Name = "label5";
@@ -272,6 +310,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label4.Font = new System.Drawing.Font("宋体", 15F);
             this.label4.Location = new System.Drawing.Point(556, 85);
             this.label4.Name = "label4";
@@ -282,6 +322,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("宋体", 15F);
             this.label3.Location = new System.Drawing.Point(449, 85);
             this.label3.Name = "label3";
@@ -292,6 +334,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(282, 85);
             this.label2.Name = "label2";
@@ -302,6 +346,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(263, 23);
             this.label1.Name = "label1";
@@ -315,6 +361,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.type.AutoSize = true;
+            this.type.BackColor = System.Drawing.Color.Transparent;
+            this.type.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.type.Location = new System.Drawing.Point(112, 277);
             this.type.Name = "type";
             this.type.Size = new System.Drawing.Size(269, 20);
@@ -327,6 +375,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count1.AutoSize = true;
+            this.count1.BackColor = System.Drawing.Color.Transparent;
+            this.count1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.count1.Location = new System.Drawing.Point(612, 277);
             this.count1.Name = "count1";
             this.count1.Size = new System.Drawing.Size(69, 20);
@@ -339,6 +389,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count2.AutoSize = true;
+            this.count2.BackColor = System.Drawing.Color.Transparent;
+            this.count2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.count2.Location = new System.Drawing.Point(721, 277);
             this.count2.Name = "count2";
             this.count2.Size = new System.Drawing.Size(69, 20);
@@ -351,6 +403,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.count3.AutoSize = true;
+            this.count3.BackColor = System.Drawing.Color.Transparent;
+            this.count3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.count3.Location = new System.Drawing.Point(821, 277);
             this.count3.Name = "count3";
             this.count3.Size = new System.Drawing.Size(69, 20);
@@ -363,6 +417,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.note.AutoSize = true;
+            this.note.BackColor = System.Drawing.Color.Transparent;
+            this.note.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.note.Location = new System.Drawing.Point(112, 323);
             this.note.Name = "note";
             this.note.Size = new System.Drawing.Size(89, 20);
@@ -375,6 +431,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.phone.AutoSize = true;
+            this.phone.BackColor = System.Drawing.Color.Transparent;
+            this.phone.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.phone.Location = new System.Drawing.Point(177, 227);
             this.phone.Name = "phone";
             this.phone.Size = new System.Drawing.Size(59, 20);
@@ -388,6 +446,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label25.Location = new System.Drawing.Point(619, 227);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(99, 20);
@@ -400,6 +460,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.way.AutoSize = true;
+            this.way.BackColor = System.Drawing.Color.Transparent;
+            this.way.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.way.Location = new System.Drawing.Point(57, 85);
             this.way.Name = "way";
             this.way.Size = new System.Drawing.Size(179, 20);
@@ -412,6 +474,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.year.AutoSize = true;
+            this.year.BackColor = System.Drawing.Color.Transparent;
+            this.year.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.year.Location = new System.Drawing.Point(368, 85);
             this.year.Name = "year";
             this.year.Size = new System.Drawing.Size(49, 20);
@@ -424,6 +488,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.month.AutoSize = true;
+            this.month.BackColor = System.Drawing.Color.Transparent;
+            this.month.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.month.Location = new System.Drawing.Point(491, 85);
             this.month.Name = "month";
             this.month.Size = new System.Drawing.Size(59, 20);
@@ -436,6 +502,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day.AutoSize = true;
+            this.day.BackColor = System.Drawing.Color.Transparent;
+            this.day.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.day.Location = new System.Drawing.Point(591, 85);
             this.day.Name = "day";
             this.day.Size = new System.Drawing.Size(39, 20);
@@ -448,6 +516,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.number.AutoSize = true;
+            this.number.BackColor = System.Drawing.Color.Transparent;
+            this.number.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.number.Location = new System.Drawing.Point(751, 85);
             this.number.Name = "number";
             this.number.Size = new System.Drawing.Size(19, 20);
@@ -460,6 +530,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.name.AutoSize = true;
+            this.name.BackColor = System.Drawing.Color.Transparent;
+            this.name.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.name.Location = new System.Drawing.Point(122, 132);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(49, 20);
@@ -472,6 +544,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.city.AutoSize = true;
+            this.city.BackColor = System.Drawing.Color.Transparent;
+            this.city.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.city.Location = new System.Drawing.Point(368, 132);
             this.city.Name = "city";
             this.city.Size = new System.Drawing.Size(49, 20);
@@ -484,6 +558,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.area.AutoSize = true;
+            this.area.BackColor = System.Drawing.Color.Transparent;
+            this.area.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.area.Location = new System.Drawing.Point(534, 132);
             this.area.Name = "area";
             this.area.Size = new System.Drawing.Size(49, 20);
@@ -496,6 +572,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Street.AutoSize = true;
+            this.Street.BackColor = System.Drawing.Color.Transparent;
+            this.Street.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Street.Location = new System.Drawing.Point(736, 132);
             this.Street.Name = "Street";
             this.Street.Size = new System.Drawing.Size(69, 20);
@@ -508,6 +586,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.detail.AutoSize = true;
+            this.detail.BackColor = System.Drawing.Color.Transparent;
+            this.detail.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.detail.Location = new System.Drawing.Point(50, 180);
             this.detail.Name = "detail";
             this.detail.Size = new System.Drawing.Size(69, 20);
@@ -516,12 +596,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(570, 449);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(713, 449);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 35);
             this.button1.TabIndex = 193;
             this.button1.Text = "打印";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // printPreviewDialog1
@@ -536,12 +618,14 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(402, 449);
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(491, 449);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 35);
             this.button2.TabIndex = 194;
             this.button2.Text = "打印预览";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.FileMenuItem_PrintView_Click);
             // 
             // printDialog1
@@ -550,30 +634,35 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button4.Location = new System.Drawing.Point(73, 449);
+            this.button4.Location = new System.Drawing.Point(54, 449);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(148, 35);
             this.button4.TabIndex = 196;
             this.button4.Text = "打印设置";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button3.Location = new System.Drawing.Point(233, 449);
+            this.button3.Location = new System.Drawing.Point(269, 449);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(148, 35);
             this.button3.TabIndex = 197;
             this.button3.Text = "页面设置";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Massageform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1002, 508);
             this.Controls.Add(this.button3);
@@ -621,6 +710,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("宋体", 15F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Massageform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

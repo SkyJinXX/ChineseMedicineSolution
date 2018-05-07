@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MassageInquire));
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -69,6 +70,8 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label14.Font = new System.Drawing.Font("宋体", 15F);
             this.label14.Location = new System.Drawing.Point(116, 302);
             this.label14.Name = "label14";
@@ -79,6 +82,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label13.Font = new System.Drawing.Font("宋体", 15F);
             this.label13.Location = new System.Drawing.Point(558, 302);
             this.label13.Name = "label13";
@@ -89,6 +94,8 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label12.Font = new System.Drawing.Font("宋体", 15F);
             this.label12.Location = new System.Drawing.Point(51, 302);
             this.label12.Name = "label12";
@@ -132,6 +139,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label8.Font = new System.Drawing.Font("宋体", 15F);
             this.label8.Location = new System.Drawing.Point(864, 125);
             this.label8.Name = "label8";
@@ -142,6 +151,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label9.Font = new System.Drawing.Font("宋体", 15F);
             this.label9.Location = new System.Drawing.Point(573, 125);
             this.label9.Name = "label9";
@@ -152,6 +163,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label10.Font = new System.Drawing.Font("宋体", 15F);
             this.label10.Location = new System.Drawing.Point(290, 125);
             this.label10.Name = "label10";
@@ -162,6 +175,8 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label11.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.Location = new System.Drawing.Point(44, 125);
             this.label11.Name = "label11";
@@ -172,6 +187,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.Font = new System.Drawing.Font("宋体", 15F);
             this.label7.Location = new System.Drawing.Point(394, 71);
             this.label7.Name = "label7";
@@ -198,6 +215,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("宋体", 15F);
             this.label6.Location = new System.Drawing.Point(43, 71);
             this.label6.Name = "label6";
@@ -208,6 +227,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(166, 19);
             this.label1.Name = "label1";
@@ -217,28 +238,33 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(455, 355);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 30);
             this.button2.TabIndex = 134;
             this.button2.Text = "保存信息";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // 确认信息
             // 
+            this.确认信息.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.确认信息.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.确认信息.Location = new System.Drawing.Point(401, 407);
             this.确认信息.Name = "确认信息";
             this.确认信息.Size = new System.Drawing.Size(207, 30);
             this.确认信息.TabIndex = 133;
             this.确认信息.Text = "取消录入回到主界面";
-            this.确认信息.UseVisualStyleBackColor = true;
+            this.确认信息.UseVisualStyleBackColor = false;
             this.确认信息.Click += new System.EventHandler(this.确认信息_Click);
             // 
             // MassageInquire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1002, 460);
             this.Controls.Add(this.button2);
@@ -261,7 +287,9 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("宋体", 15F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "MassageInquire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

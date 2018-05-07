@@ -44,5 +44,10 @@ namespace ChineseMedicine
         {
 
         }
+
+        private void Button1_on(object sender, EventArgs e)
+        {
+
+        }
     }
 }

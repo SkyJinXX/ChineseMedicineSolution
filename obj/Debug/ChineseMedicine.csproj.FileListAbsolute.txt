@@ -48,3 +48,7 @@ E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.selectMassage.resources
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.csproj.GenerateResource.Cache
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.pdb
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.manifest
+E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.application
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe.manifest
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
