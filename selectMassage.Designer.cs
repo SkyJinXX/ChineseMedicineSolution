@@ -435,6 +435,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1002, 516);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
@@ -476,7 +477,8 @@
             this.Font = new System.Drawing.Font("宋体", 15F);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "selectMassage";
-            this.Text = "selectMassage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "信息单填写";
             this.ResumeLayout(false);
             this.PerformLayout();
 

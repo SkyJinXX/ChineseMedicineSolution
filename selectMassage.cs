@@ -22,8 +22,8 @@ namespace ChineseMedicine
         private void 确认信息_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form MainFunction = new MainFunction();
-            MainFunction.Show();
+            //Form MainFunction = new MainFunction();
+            //MainFunction.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -101,9 +101,10 @@ namespace ChineseMedicine
 
             //MessageBox.Show(All.Lei);
 
-            this.Close();
+            this.Hide();
             Form Massageform = new Massageform();
-            Massageform.Show();
+            Massageform.ShowDialog();
+            this.Show();
         }
 
         private string Get_Data()
@@ -117,8 +118,13 @@ namespace ChineseMedicine
                 s += "0";
             s += textBox3.Text + " 00:00:00";
 
-            MessageBox.Show(s);
+            //MessageBox.Show(s);
             return s;
+        }
+
+        private void Massageform_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
         }
     }
 }

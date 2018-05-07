@@ -34,9 +34,9 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -105,21 +105,13 @@
             this.textBox9.Size = new System.Drawing.Size(907, 82);
             this.textBox9.TabIndex = 112;
             // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("宋体", 15F);
-            this.textBox6.Location = new System.Drawing.Point(97, 122);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(187, 30);
-            this.textBox6.TabIndex = 111;
-            // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("宋体", 15F);
             this.textBox7.Location = new System.Drawing.Point(608, 122);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(250, 30);
-            this.textBox7.TabIndex = 110;
+            this.textBox7.TabIndex = 111;
             // 
             // textBox8
             // 
@@ -127,7 +119,15 @@
             this.textBox8.Location = new System.Drawing.Point(325, 122);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(242, 30);
-            this.textBox8.TabIndex = 109;
+            this.textBox8.TabIndex = 110;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("宋体", 15F);
+            this.textBox6.Location = new System.Drawing.Point(97, 122);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(187, 30);
+            this.textBox6.TabIndex = 109;
             // 
             // label8
             // 
@@ -239,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1002, 460);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.确认信息);
@@ -248,9 +249,9 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
@@ -263,7 +264,9 @@
             this.Font = new System.Drawing.Font("宋体", 15F);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "MassageInquire";
-            this.Text = "MassageInquire";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "信息录入系统";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MassageInquire_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,9 +279,9 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;

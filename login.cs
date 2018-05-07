@@ -23,15 +23,26 @@ namespace ChineseMedicine
             string password = textBox2.Text.ToString();
             if (username == "admin" && password == "admin")
             {
-                this.Visible = false;
+                this.Hide();
                 Form MainFunction = new MainFunction();
-                MainFunction.Show();
+                MainFunction.ShowDialog();
+                Application.ExitThread();
             }
             else
             {
                 MessageBox.Show("用户名密码错误！");
 
             }
+        }
+
+        private void Massageform_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

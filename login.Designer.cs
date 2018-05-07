@@ -84,6 +84,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -91,9 +93,12 @@
             this.Controls.Add(this.password);
             this.Controls.Add(this.username);
             this.Font = new System.Drawing.Font("宋体", 15F);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "login";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "登陆";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Massageform_FormClosing);
+            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

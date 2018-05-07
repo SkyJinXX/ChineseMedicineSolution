@@ -20,17 +20,30 @@ namespace ChineseMedicine
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Form MassageInquire = new MassageInquire();
-            MassageInquire.Show();
+            MassageInquire.ShowDialog();
+            this.Show();
+            //Application.ExitThread();
+            //this.Close();
+            //this.Dispose();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Form selectMassage = new selectMassage();
-            selectMassage.Show();
+            selectMassage.ShowDialog();
+            this.Show();
+            //Application.ExitThread();
+            //this.Close();
+            //this.Dispose();
+        }
+
+        private void Massageform_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
         }
     }
 
