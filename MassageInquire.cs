@@ -43,11 +43,18 @@ namespace ChineseMedicine
             }
             else
             {
+                //获取出生日期
+                String birthday = Get_Data();
+                
+                //获取Gender（M/F）
+                String gender = "";
+                gender = comboBox1.SelectedItem.ToString();
+                
                 String str = "insert into Patient values('" + textBox4.Text + "', '" + textBox5.Text
-                    + "', '" + textBox11.Text + "', '" + textBox10.Text + "')";
+                    + "', '" + gender + "','" + birthday + "','" + textBox11.Text + "', '" + textBox10.Text + "')";
                 SqlCommand cmd = new SqlCommand(str, conn);
                 cmd.ExecuteScalar();
-                MessageBox.Show("患者信息已录入！");
+                //MessageBox.Show("患者信息已录入！");
 
                 String s = Address_Deal();
                 cq.CommandText = "select IDp from Address where Addres = '" + s + "'";
@@ -97,9 +104,33 @@ namespace ChineseMedicine
             throw new NotImplementedException();
         }
 
+        //获取出生日期
+        private string Get_Data()
+        {
+            String s = textBox12.Text + "-";
+            if (textBox1.Text.Length == 1)
+                s += "0";
+            s += textBox1.Text + "-";
+
+            if (textBox3.Text.Length == 1)
+                s += "0";
+            s += textBox3.Text + " 00:00:00";
+
+            //MessageBox.Show(s);
+            return s;
+        }
+
         private void MassageInquire_FormClosing(object sender, FormClosingEventArgs e)
         {
             //System.Environment.Exit(0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form MassageInquire = new MassageInquire();
+            MassageInquire.ShowDialog();
+            this.Show();
         }
     }
 }

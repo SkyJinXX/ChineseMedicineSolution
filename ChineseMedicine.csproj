@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -98,6 +98,23 @@
     <Compile Include="MassageInquire.Designer.cs">
       <DependentUpon>MassageInquire.cs</DependentUpon>
     </Compile>
+    <Compile Include="MassageShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MassageShow.Designer.cs">
+      <DependentUpon>MassageShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenzhenDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MenzhenDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PatientShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientShow.Designer.cs">
+      <DependentUpon>PatientShow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="selectMassage.cs">
@@ -118,6 +135,12 @@
     <EmbeddedResource Include="MassageInquire.resx">
       <DependentUpon>MassageInquire.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MassageShow.resx">
+      <DependentUpon>MassageShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientShow.resx">
+      <DependentUpon>PatientShow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -131,6 +154,17 @@
       <DependentUpon>selectMassage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ChineseMedicine_TemporaryKey.pfx" />
+    <None Include="MenzhenDataSet2.xsc">
+      <DependentUpon>MenzhenDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MenzhenDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MenzhenDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MenzhenDataSet2.xss">
+      <DependentUpon>MenzhenDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

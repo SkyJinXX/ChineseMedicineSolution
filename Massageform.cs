@@ -17,6 +17,7 @@ namespace ChineseMedicine
     public partial class Massageform : Form
     {
         StringReader lineReader = null;
+        PaperSize ps = new PaperSize("A5", 148, 210);
         public Massageform()
         {
             InitializeComponent();
@@ -90,6 +91,7 @@ namespace ChineseMedicine
             count2.Text = s.Substring(j + 1, k - j - 1);
             count3.Text = s.Substring(k + 1, s.Length - 1 - k);
             note.Text = All.Bei;
+            
         }
         
         //打印设置
@@ -132,8 +134,8 @@ namespace ChineseMedicine
                 try
                 {
                     Graphics g = e.Graphics;   //先建立画布   
-                    int x = 80;
-                    int y = 0;
+                    int x = 20;
+                    int y = 50;
                     TextBox tb = new TextBox();
                     //g.DrawImage(this.BackgroundImage, 1018, 555);
                     foreach (Control item in this.Controls)
@@ -161,8 +163,20 @@ namespace ChineseMedicine
             //int i = 1;
             //MessageBox.Show(i.ToString());
             //i++;
-            
+
             //printDialog1.ShowDialog();
+
+            PrintDialog MySettings = new PrintDialog();
+            MySettings.Document = this.printDocument1;
+
+            PaperSize p = null;
+            foreach (PaperSize ps in MySettings.Document.PrinterSettings.PaperSizes)
+            {
+                if (ps.PaperName.Equals("A5"))//这里设置纸张大小,但必须是定义好的     
+                    p = ps;
+            }
+            MySettings.Document.DefaultPageSettings.PaperSize = p;
+
             this.printDocument1.Print(); 
 
         }
@@ -171,5 +185,6 @@ namespace ChineseMedicine
         {
             System.Environment.Exit(0);
         }
+        
     }
 }

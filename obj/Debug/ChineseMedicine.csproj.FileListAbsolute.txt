@@ -52,3 +52,5 @@ E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.manifest
 E:\ChineseMedicineSolution\bin\Debug\ChineseMedicine.application
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe.manifest
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageShow.resources
+E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.PatientShow.resources

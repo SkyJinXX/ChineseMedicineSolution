@@ -45,6 +45,22 @@ namespace ChineseMedicine
         {
             System.Environment.Exit(0);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form MassageShow = new MassageShow();
+            MassageShow.ShowDialog();
+            this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form PatientShow = new PatientShow();
+            PatientShow.ShowDialog();
+            this.Show();
+        }
     }
 
     //全局变量
