@@ -53,12 +53,6 @@
             this.menzhenDataSet = new ChineseMedicine.MenzhenDataSet2();
             this.menzhenDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.patientTableAdapter1 = new ChineseMedicine.MenzhenDataSet2TableAdapters.PatientTableAdapter();
-            this.iDpDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.birthDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homePhoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2)).BeginInit();
@@ -96,7 +90,6 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -105,14 +98,7 @@
             this.性别,
             this.出生日期,
             this.联系方式,
-            this.住址,
-            this.iDpDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.genderDataGridViewTextBoxColumn,
-            this.birthDateDataGridViewTextBoxColumn,
-            this.phoneDataGridViewTextBoxColumn,
-            this.homePhoneDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.patientBindingSource1;
+            this.住址});
             this.dataGridView1.Location = new System.Drawing.Point(30, 134);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
@@ -258,42 +244,6 @@
             // 
             this.patientTableAdapter1.ClearBeforeFill = true;
             // 
-            // iDpDataGridViewTextBoxColumn
-            // 
-            this.iDpDataGridViewTextBoxColumn.DataPropertyName = "IDp";
-            this.iDpDataGridViewTextBoxColumn.HeaderText = "IDp";
-            this.iDpDataGridViewTextBoxColumn.Name = "iDpDataGridViewTextBoxColumn";
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // genderDataGridViewTextBoxColumn
-            // 
-            this.genderDataGridViewTextBoxColumn.DataPropertyName = "Gender";
-            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
-            this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
-            // 
-            // birthDateDataGridViewTextBoxColumn
-            // 
-            this.birthDateDataGridViewTextBoxColumn.DataPropertyName = "BirthDate";
-            this.birthDateDataGridViewTextBoxColumn.HeaderText = "BirthDate";
-            this.birthDateDataGridViewTextBoxColumn.Name = "birthDateDataGridViewTextBoxColumn";
-            // 
-            // phoneDataGridViewTextBoxColumn
-            // 
-            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "Phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone";
-            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
-            // 
-            // homePhoneDataGridViewTextBoxColumn
-            // 
-            this.homePhoneDataGridViewTextBoxColumn.DataPropertyName = "HomePhone";
-            this.homePhoneDataGridViewTextBoxColumn.HeaderText = "HomePhone";
-            this.homePhoneDataGridViewTextBoxColumn.Name = "homePhoneDataGridViewTextBoxColumn";
-            // 
             // PatientShow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -351,11 +301,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 出生日期;
         private System.Windows.Forms.DataGridViewTextBoxColumn 联系方式;
         private System.Windows.Forms.DataGridViewTextBoxColumn 住址;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDpDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn birthDateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn homePhoneDataGridViewTextBoxColumn;
     }
 }

@@ -36,6 +36,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.姓名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.联系方式 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.住址 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.日期 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.menzhenDataSet = new ChineseMedicine.MenzhenDataSet2();
             this.patientBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -48,11 +53,6 @@
             this.patientTableAdapter = new ChineseMedicine.MenzhenDataSet2TableAdapters.PatientTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.IDp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.姓名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.联系方式 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.住址 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.日期 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.addressBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet)).BeginInit();
@@ -124,11 +124,49 @@
             this.联系方式,
             this.住址,
             this.日期});
-            this.dataGridView1.Location = new System.Drawing.Point(46, 135);
+            this.dataGridView1.Location = new System.Drawing.Point(40, 135);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(705, 367);
+            this.dataGridView1.Size = new System.Drawing.Size(720, 367);
             this.dataGridView1.TabIndex = 180;
+            // 
+            // IDp
+            // 
+            this.IDp.DataPropertyName = "IDp";
+            this.IDp.HeaderText = "医保卡号";
+            this.IDp.Name = "IDp";
+            this.IDp.ReadOnly = true;
+            // 
+            // 姓名
+            // 
+            this.姓名.DataPropertyName = "Name";
+            this.姓名.HeaderText = "姓名";
+            this.姓名.Name = "姓名";
+            this.姓名.ReadOnly = true;
+            this.姓名.Width = 80;
+            // 
+            // 联系方式
+            // 
+            this.联系方式.DataPropertyName = "Phone";
+            this.联系方式.HeaderText = "联系方式";
+            this.联系方式.Name = "联系方式";
+            this.联系方式.ReadOnly = true;
+            // 
+            // 住址
+            // 
+            this.住址.DataPropertyName = "Addres";
+            this.住址.HeaderText = "住址";
+            this.住址.Name = "住址";
+            this.住址.ReadOnly = true;
+            this.住址.Width = 300;
+            // 
+            // 日期
+            // 
+            this.日期.DataPropertyName = "Date";
+            this.日期.HeaderText = "日期";
+            this.日期.Name = "日期";
+            this.日期.ReadOnly = true;
+            this.日期.Width = 80;
             // 
             // addressBindingSource1
             // 
@@ -201,44 +239,6 @@
             this.label2.Size = new System.Drawing.Size(543, 33);
             this.label2.TabIndex = 182;
             this.label2.Text = "杭州传承中医门诊部医药信息单管理";
-            // 
-            // IDp
-            // 
-            this.IDp.DataPropertyName = "IDp";
-            this.IDp.HeaderText = "医保卡号";
-            this.IDp.Name = "IDp";
-            this.IDp.ReadOnly = true;
-            // 
-            // 姓名
-            // 
-            this.姓名.DataPropertyName = "Name";
-            this.姓名.HeaderText = "姓名";
-            this.姓名.Name = "姓名";
-            this.姓名.ReadOnly = true;
-            this.姓名.Width = 80;
-            // 
-            // 联系方式
-            // 
-            this.联系方式.DataPropertyName = "Phone";
-            this.联系方式.HeaderText = "联系方式";
-            this.联系方式.Name = "联系方式";
-            this.联系方式.ReadOnly = true;
-            // 
-            // 住址
-            // 
-            this.住址.DataPropertyName = "Addres";
-            this.住址.HeaderText = "住址";
-            this.住址.Name = "住址";
-            this.住址.ReadOnly = true;
-            this.住址.Width = 300;
-            // 
-            // 日期
-            // 
-            this.日期.DataPropertyName = "Date";
-            this.日期.HeaderText = "日期";
-            this.日期.Name = "日期";
-            this.日期.ReadOnly = true;
-            this.日期.Width = 80;
             // 
             // MassageShow
             // 

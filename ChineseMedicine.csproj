@@ -98,6 +98,12 @@
     <Compile Include="MassageInquire.Designer.cs">
       <DependentUpon>MassageInquire.cs</DependentUpon>
     </Compile>
+    <Compile Include="MassageNewAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MassageNewAddress.Designer.cs">
+      <DependentUpon>MassageNewAddress.cs</DependentUpon>
+    </Compile>
     <Compile Include="MassageShow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MassageInquire.resx">
       <DependentUpon>MassageInquire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MassageNewAddress.resx">
+      <DependentUpon>MassageNewAddress.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MassageShow.resx">
       <DependentUpon>MassageShow.cs</DependentUpon>

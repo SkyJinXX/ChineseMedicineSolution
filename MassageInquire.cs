@@ -35,6 +35,16 @@ namespace ChineseMedicine
             SqlConnection conn = new SqlConnection(connstr);
             conn.Open();
 
+            if(textBox1.Text == "" || textBox3.Text == "" || textBox4.Text == "" || 
+                textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "" ||
+                textBox8.Text == "" || textBox11.Text == "" || textBox12.Text == "" ||
+                comboBox1.SelectedItem.ToString()=="")
+            {
+                MessageBox.Show("信息请填写完整");
+
+                return;
+            }
+
             String sq = "select IDp from Patient where IDp = '" + textBox4.Text + "'";
             SqlCommand cq = new SqlCommand(sq, conn);
             if (cq.ExecuteScalar() != null)
@@ -57,7 +67,7 @@ namespace ChineseMedicine
                 //MessageBox.Show("患者信息已录入！");
 
                 String s = Address_Deal();
-                cq.CommandText = "select IDp from Address where Addres = '" + s + "'";
+                cq.CommandText = "select IDp from Address where Addres = '" + s + "' and IDp = '" + textBox4.Text + "'";
                 if (cq.ExecuteScalar() != null)
                 {
                     MessageBox.Show("该地址已存在，无需录入！");
@@ -69,7 +79,7 @@ namespace ChineseMedicine
                     cmd.CommandText = "insert into Address values('" + num.ToString() + "','" + textBox4.Text
                         + "','" + s + "')";
                     cmd.ExecuteScalar();
-                    MessageBox.Show("患者地址已录入！");
+                    MessageBox.Show("患者信息已录入！");
                 }
             }
             conn.Close();
@@ -128,8 +138,8 @@ namespace ChineseMedicine
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form MassageInquire = new MassageInquire();
-            MassageInquire.ShowDialog();
+            Form MassageNewAddress = new MassageNewAddress();
+            MassageNewAddress.ShowDialog();
             this.Show();
         }
     }

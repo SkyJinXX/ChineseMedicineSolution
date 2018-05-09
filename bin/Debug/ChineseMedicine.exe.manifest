@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="6726104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="7673816">
       <assemblyIdentity name="ChineseMedicine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7v6q5EKdwTE7Ikfw8AMzUCyLhqOGnODLmV/Vnvegt58=</dsig:DigestValue>
+        <dsig:DigestValue>nH2IOtP7oQnsw/9JpedSoszckunswNJRYMzKNhnJsnQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
