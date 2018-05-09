@@ -53,6 +53,7 @@
             this.menzhenDataSet = new ChineseMedicine.MenzhenDataSet2();
             this.menzhenDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.patientTableAdapter1 = new ChineseMedicine.MenzhenDataSet2TableAdapters.PatientTableAdapter();
+            this.menzhenDataSet2BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2)).BeginInit();
@@ -61,6 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2BindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -69,9 +71,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(92, 29);
+            this.label2.Location = new System.Drawing.Point(123, 36);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(576, 33);
+            this.label2.Size = new System.Drawing.Size(714, 40);
             this.label2.TabIndex = 183;
             this.label2.Text = "杭州传承中医门诊部患者信息管理系统";
             // 
@@ -80,9 +83,10 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(649, 95);
+            this.button1.Location = new System.Drawing.Point(865, 119);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 30);
+            this.button1.Size = new System.Drawing.Size(107, 38);
             this.button1.TabIndex = 190;
             this.button1.Text = "返回";
             this.button1.UseVisualStyleBackColor = false;
@@ -90,6 +94,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -99,10 +104,12 @@
             this.出生日期,
             this.联系方式,
             this.住址});
-            this.dataGridView1.Location = new System.Drawing.Point(30, 134);
+            this.dataGridView1.DataSource = this.menzhenDataSet2BindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(40, 168);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(746, 367);
+            this.dataGridView1.Size = new System.Drawing.Size(995, 459);
             this.dataGridView1.TabIndex = 189;
             // 
             // IDp
@@ -165,9 +172,10 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(536, 95);
+            this.button2.Location = new System.Drawing.Point(715, 119);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 30);
+            this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 188;
             this.button2.Text = "查询";
             this.button2.UseVisualStyleBackColor = false;
@@ -179,9 +187,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("宋体", 15F);
-            this.label1.Location = new System.Drawing.Point(323, 100);
+            this.label1.Location = new System.Drawing.Point(431, 125);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 187;
             this.label1.Text = "姓名:";
             // 
@@ -191,24 +200,27 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label13.Font = new System.Drawing.Font("宋体", 15F);
-            this.label13.Location = new System.Drawing.Point(57, 100);
+            this.label13.Location = new System.Drawing.Point(76, 125);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(99, 20);
+            this.label13.Size = new System.Drawing.Size(125, 25);
             this.label13.TabIndex = 186;
             this.label13.Text = "医保卡号:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(397, 100);
+            this.textBox2.Location = new System.Drawing.Point(529, 125);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.Size = new System.Drawing.Size(132, 25);
             this.textBox2.TabIndex = 185;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(159, 100);
+            this.textBox1.Location = new System.Drawing.Point(212, 125);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 21);
+            this.textBox1.Size = new System.Drawing.Size(185, 25);
             this.textBox1.TabIndex = 184;
             // 
             // menzhenDataSet1
@@ -244,12 +256,17 @@
             // 
             this.patientTableAdapter1.ClearBeforeFill = true;
             // 
+            // menzhenDataSet2BindingSource1
+            // 
+            this.menzhenDataSet2BindingSource1.DataSource = this.menzhenDataSet2;
+            this.menzhenDataSet2BindingSource1.Position = 0;
+            // 
             // PatientShow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(803, 531);
+            this.ClientSize = new System.Drawing.Size(1071, 664);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
@@ -259,6 +276,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PatientShow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "杭州传承中医门诊部患者信息管理系统";
@@ -271,6 +289,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menzhenDataSet2BindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,5 +320,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 出生日期;
         private System.Windows.Forms.DataGridViewTextBoxColumn 联系方式;
         private System.Windows.Forms.DataGridViewTextBoxColumn 住址;
+        private System.Windows.Forms.BindingSource menzhenDataSet2BindingSource1;
     }
 }

@@ -89,6 +89,12 @@ namespace ChineseMedicine
         {
             String s = "";
 
+            String sp = textBox2.Text;
+            if (!sp.EndsWith("省"))
+            {
+                sp += "省";
+            }
+
             String ss = textBox6.Text;
             if (!ss.EndsWith("市"))
             {
@@ -108,7 +114,7 @@ namespace ChineseMedicine
             }
             sj += "街道（乡）";
 
-            s = ss + sq + sj + textBox9.Text;
+            s = sp + ss + sq + sj + textBox9.Text;
 
             return s;
             throw new NotImplementedException();

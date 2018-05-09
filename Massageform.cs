@@ -53,20 +53,22 @@ namespace ChineseMedicine
 
             cmd.CommandText = "select Addres from Information where IDnum = '" + All.Id + "'";
             String ad = cmd.ExecuteScalar().ToString();
-            String ss = "", sq = "", sj = "", sde = "";
+            String sp = "", ss = "", sq = "", sj = "", sde = "";
+            int pi = ad.IndexOf("省");
             int si = ad.IndexOf("市");
             int qi = ad.IndexOf("区");
             int ji = ad.IndexOf("街");
             int di = ji + 4;
             int l = ad.Length;
             //MessageBox.Show(si + " " + qi + " " + ji + " " + di);
-
-            ss = ad.Substring(0, si);
+            sp = ad.Substring(0, pi);
+            ss = ad.Substring(pi + 1, si - pi - 1);
             sq = ad.Substring(si + 1, qi - si - 1);
             sj = ad.Substring(qi + 1, ji - qi -1);
             sde = ad.Substring(di + 1, l - di - 1);
             //MessageBox.Show(ss + " " + sq + " " + sj + " " + sde);
 
+            label24.Text = sp;
             city.Text = ss;
             area.Text = sq;
             Street.Text = sj;
@@ -90,7 +92,8 @@ namespace ChineseMedicine
             count1.Text = s.Substring(0, j);
             count2.Text = s.Substring(j + 1, k - j - 1);
             count3.Text = s.Substring(k + 1, s.Length - 1 - k);
-            note.Text = All.Bei;
+            label27.Text = All.Bei;
+            //MessageBox.Show(All.Bei);
             
         }
         

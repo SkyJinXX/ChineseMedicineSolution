@@ -55,3 +55,10 @@ E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageShow.resources
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.PatientShow.resources
 E:\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageNewAddress.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.exe.manifest
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\bin\Debug\ChineseMedicine.application
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageNewAddress.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.MassageShow.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.PatientShow.resources
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.exe.manifest
+C:\Users\Administrator\Documents\GitHub\ChineseMedicineSolution\obj\Debug\ChineseMedicine.application
