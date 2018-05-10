@@ -7,14 +7,22 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
+<<<<<<< HEAD
     <dependentAssembly dependencyType="install" codebase="ChineseMedicine.exe.manifest" size="3457">
+=======
+    <dependentAssembly dependencyType="install" codebase="ChineseMedicine.exe.manifest" size="3456">
+>>>>>>> e7a0545e3c3a95d69c97dd72ef303d9d7bea77bb
       <assemblyIdentity name="ChineseMedicine.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>17BUIPPIBJIk07ROfjiuxe4yoA8GS23B83E9MxyqR2U=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>VzpYPS4kmq2Z0gMB3AdYCPCBlDHArVodFYXPxMi+0aE=</dsig:DigestValue>
+>>>>>>> e7a0545e3c3a95d69c97dd72ef303d9d7bea77bb
       </hash>
     </dependentAssembly>
   </dependency>

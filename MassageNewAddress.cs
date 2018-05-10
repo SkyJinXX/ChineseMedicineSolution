@@ -63,26 +63,32 @@ namespace ChineseMedicine
         {
             String s = "";
 
+            String sp = textBox1.Text;
+            if (!sp.EndsWith("省"))
+            {
+                sp += "省";
+            }
+
             String ss = textBox6.Text;
             if (!ss.EndsWith("市"))
             {
                 ss += "市";
             }
 
-            String sq = textBox7.Text;
+            String sq = textBox8.Text;
             if (!sq.EndsWith("区"))
             {
                 sq += "区";
             }
 
-            String sj = textBox8.Text;
+            String sj = textBox7.Text;
             if (sj.EndsWith("街") || sj.EndsWith("乡"))
             {
                 sj = sj.Substring(0, sj.Length - 1);
             }
             sj += "街道（乡）";
 
-            s = ss + sq + sj + textBox9.Text;
+            s = sp + ss + sq + sj + textBox9.Text;
 
             return s;
             throw new NotImplementedException();
