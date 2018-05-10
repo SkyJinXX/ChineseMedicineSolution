@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ChineseMedicine.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ChineseMedicine.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="ChineseMedicine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,18 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="9120216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="9119704">
       <assemblyIdentity name="ChineseMedicine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-<<<<<<< HEAD
-        <dsig:DigestValue>Yxe2O9twlNI4AvB5lmhqliAcL58t8RjjJL18FysIuys=</dsig:DigestValue>
-=======
-        <dsig:DigestValue>vYvTIjuK00jKYVaqAeEj3jnOhDcqUEJsRuk6Tmt3zYU=</dsig:DigestValue>
->>>>>>> e7a0545e3c3a95d69c97dd72ef303d9d7bea77bb
+        <dsig:DigestValue>YcVIDOnm/gXOPWJR9HQ5ppyEf0Q9nqcaEl2hjs+Ody8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,11 +59,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-<<<<<<< HEAD
       <dsig:DigestValue>A4SlMmDKAMZ79qZsjZJ2DV239kKGKElCC5K/PjeHCkw=</dsig:DigestValue>
-=======
-      <dsig:DigestValue>xSe6hpuDxBnDpLLrIotEGhkQ+Kc+rHlrCpTX87UBvQk=</dsig:DigestValue>
->>>>>>> e7a0545e3c3a95d69c97dd72ef303d9d7bea77bb
     </hash>
   </file>
 </asmv1:assembly>

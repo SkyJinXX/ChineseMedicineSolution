@@ -137,8 +137,8 @@ namespace ChineseMedicine
                 try
                 {
                     Graphics g = e.Graphics;   //先建立画布   
-                    int x = 20;
-                    int y = 50;
+                    int x = -40;
+                    int y = 10;
                     TextBox tb = new TextBox();
                     //g.DrawImage(this.BackgroundImage, 1018, 555);
                     foreach (Control item in this.Controls)

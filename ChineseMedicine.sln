@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseMedicine", "ChineseMedicine.csproj", "{B1ED1E29-B1AE-4AE2-B514-FFCDB26FE6A6}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{3DF285E2-E6F2-485E-A8AF-4881A6EF963B}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "c:\users\sky\documents\visual studio 2017\Projects\Setup2\Setup2.vdproj", "{475B412A-44B9-4764-8006-9AFCBBA7E7C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{B1ED1E29-B1AE-4AE2-B514-FFCDB26FE6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1ED1E29-B1AE-4AE2-B514-FFCDB26FE6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1ED1E29-B1AE-4AE2-B514-FFCDB26FE6A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DF285E2-E6F2-485E-A8AF-4881A6EF963B}.Debug|Any CPU.ActiveCfg = Debug
-		{3DF285E2-E6F2-485E-A8AF-4881A6EF963B}.Release|Any CPU.ActiveCfg = Release
+		{475B412A-44B9-4764-8006-9AFCBBA7E7C3}.Debug|Any CPU.ActiveCfg = Debug
+		{475B412A-44B9-4764-8006-9AFCBBA7E7C3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
