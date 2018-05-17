@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="9119704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChineseMedicine.exe" size="9124312">
       <assemblyIdentity name="ChineseMedicine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YcVIDOnm/gXOPWJR9HQ5ppyEf0Q9nqcaEl2hjs+Ody8=</dsig:DigestValue>
+        <dsig:DigestValue>xbc3T8NlVo2cA1m5F+VNeFTsyrCPozZkfd3lqO9c37k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -59,7 +59,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>A4SlMmDKAMZ79qZsjZJ2DV239kKGKElCC5K/PjeHCkw=</dsig:DigestValue>
+      <dsig:DigestValue>yc6HX56ESmO8YUka5sxY6NWiJ/MU+ZW4oNx71D+WnmI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
